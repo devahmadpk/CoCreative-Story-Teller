@@ -217,4 +217,9 @@ Measures:
 * Performance depends on prompt quality and knowledge base coverage
 * No symbolic math engine (pure LLM reasoning)
 
+## Results
+### Multi Turn Performance
+![Multi Turn Performance](results/multi-turn.png)
 
+### Rag vs Baseline Results
+![Rag vs Baseline Results](results/rag_vs_baseline.png)
