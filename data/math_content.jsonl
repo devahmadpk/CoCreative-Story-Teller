@@ -1,0 +1,391 @@
+{"id":"g1_add_def_1","type":"definition","grade":1,"topic":"addition","concept":"counting on","style":"formal","content":"Addition (add, plus, total, altogether) means putting numbers together to find how many in all.","solution":""}
+
+{"id":"g1_add_int_1","type":"intuition","grade":1,"topic":"addition","concept":"counting on","style":"story","content":"We use addition when we collect things. If you have some toys and then get more, you add them to know your total.","solution":""}
+
+{"id":"g1_add_story_1","type":"story","grade":1,"topic":"addition","concept":"counting on","style":"story","content":"At school, Ariel had 2 shiny stones. Her friend smiled and gave her 1 more. Ariel looked at her hand and said, 'Let’s count together!' She started from 2 and counted: 3. Now she had 3 stones in total.","solution":""}
+
+{"id":"g1_add_story_2","type":"story","grade":1,"topic":"addition","concept":"counting on","style":"story","content":"Bilal had 3 toy cars lined up. His brother brought him 2 more cars. Bilal pushed them together and counted: 4, 5. Now he had 5 cars altogether.","solution":""}
+
+{"id":"g1_add_example_1","type":"example","grade":1,"topic":"addition","concept":"counting on","style":"step-by-step","content":"Add 2 and 1.","solution":"Step 1: Start from 2. Step 2: Count 1 more → 3. Final answer: 3."}
+
+{"id":"g1_add_mis_1","type":"misconception","grade":1,"topic":"addition","concept":"counting on","style":"formal","content":"You do not always need to count from 1. You can start from the bigger number and count on.","solution":""}
+
+{"id":"g1_add_pattern_1","type":"reasoning_pattern","grade":1,"topic":"addition","concept":"counting on","style":"step-by-step","content":"If a story says 'gets more', 'given more', 'finds more', 'receives', or 'buys more', it means addition.","solution":"Add the numbers to find the total."}
+
+{"id":"g1_add_prob_1","type":"problem","grade":1,"topic":"addition","concept":"counting on","style":"step-by-step","content":"Ariel has 2 stones. She gets 1 more. How many stones now?","solution":"Step 1: Ariel has 2 stones. Step 2: She gets 1 more, so we add. Step 3: 2 + 1 = 3. Final answer: 3 stones."}
+
+{"id":"g1_add_prob_2","type":"problem","grade":1,"topic":"addition","concept":"counting on","style":"step-by-step","content":"I have 2 stones. My dad gives me 2 more. How many now?","solution":"Step 1: Start with 2 stones. Step 2: Dad gives 2 more, so we add. Step 3: 2 + 2 = 4. Final answer: 4 stones."}
+
+{"id":"g1_add_prob_3","type":"problem","grade":1,"topic":"addition","concept":"counting on","style":"step-by-step","content":"Zara has 3 candies and finds 2 more. How many candies now?","solution":"Step 1: Start with 3. Step 2: Finds 2 more → add. Step 3: 3 + 2 = 5. Final answer: 5 candies."}
+
+{"id":"g1_sub_def_1","type":"definition","grade":1,"topic":"subtraction","concept":"counting back","style":"formal","content":"Subtraction (minus, take away, left) means removing some items to find how many remain.","solution":""}
+
+{"id":"g1_sub_int_1","type":"intuition","grade":1,"topic":"subtraction","concept":"counting back","style":"story","content":"We use subtraction when things go away. If you lose or give away something, subtraction helps you know what is left.","solution":""}
+
+{"id":"g1_sub_story_1","type":"story","grade":1,"topic":"subtraction","concept":"counting back","style":"story","content":"Leo had 5 balloons at his party. Suddenly, 2 flew away into the sky. Leo looked up and then counted back: 4, 3. Now he had 3 balloons left.","solution":""}
+
+{"id":"g1_sub_story_2","type":"story","grade":1,"topic":"subtraction","concept":"counting back","style":"story","content":"Mina had 6 candies. She shared 2 with her sister. She counted backwards: 5, 4. Mina now has 4 candies left.","solution":""}
+
+{"id":"g1_sub_example_1","type":"example","grade":1,"topic":"subtraction","concept":"counting back","style":"step-by-step","content":"Subtract 5 - 2.","solution":"Step 1: Start from 5. Step 2: Count back 2 → 4, 3. Final answer: 3."}
+
+{"id":"g1_sub_mis_1","type":"misconception","grade":1,"topic":"subtraction","concept":"counting back","style":"formal","content":"Subtraction is not always about losing things. It can also show how many are left.","solution":""}
+
+{"id":"g1_sub_pattern_1","type":"reasoning_pattern","grade":1,"topic":"subtraction","concept":"counting back","style":"step-by-step","content":"If a story says 'gives away', 'loses', 'eats', 'used', or 'left', it means subtraction.","solution":"Subtract to find what remains."}
+
+{"id":"g1_sub_prob_1","type":"problem","grade":1,"topic":"subtraction","concept":"counting back","style":"step-by-step","content":"Ariel has 5 stones. She gives away 2. How many left?","solution":"Step 1: Ariel has 5 stones. Step 2: She gives away 2, so we subtract. Step 3: 5 - 2 = 3. Final answer: 3 stones."}
+
+{"id":"g1_sub_prob_2","type":"problem","grade":1,"topic":"subtraction","concept":"counting back","style":"step-by-step","content":"You have 6 cookies and eat 1. How many remain?","solution":"Step 1: Start with 6. Step 2: Eat 1 → subtract. Step 3: 6 - 1 = 5. Final answer: 5 cookies."}
+
+{"id":"g1_div_def_1","type":"definition","grade":1,"topic":"division","concept":"equal shares","style":"formal","content":"Equal sharing (share, divide equally) means giving the same amount to everyone.","solution":""}
+
+{"id":"g1_div_int_1","type":"intuition","grade":1,"topic":"division","concept":"equal shares","style":"story","content":"We use division when we want to be fair and give everyone the same amount.","solution":""}
+
+{"id":"g1_div_story_1","type":"story","grade":1,"topic":"division","concept":"equal shares","style":"story","content":"Ali had 6 apples and 3 friends. He wanted to be fair, so he gave one apple to each friend again and again. In the end, each friend had 2 apples.","solution":""}
+
+{"id":"g1_div_example_1","type":"example","grade":1,"topic":"division","concept":"equal shares","style":"step-by-step","content":"Divide 6 apples among 3 friends.","solution":"Step 1: Share equally. Step 2: Each gets 2. Final answer: 2 apples each."}
+
+{"id":"g1_div_pattern_1","type":"reasoning_pattern","grade":1,"topic":"division","concept":"equal shares","style":"step-by-step","content":"If a story talks about sharing equally among people, it means division.","solution":"Divide into equal groups."}
+
+{"id":"g1_div_prob_1","type":"problem","grade":1,"topic":"division","concept":"equal shares","style":"step-by-step","content":"6 candies are shared among 2 kids. How many each?","solution":"Step 1: Total is 6. Step 2: Share equally among 2. Step 3: 6 ÷ 2 = 3. Final answer: 3 each."}
+
+{"id":"g1_count_def_1","type":"definition","grade":1,"topic":"number sense","concept":"counting sequence","style":"formal","content":"Counting (forward, backward, sequence) means saying numbers in order like 1, 2, 3 and so on.","solution":""}
+
+{"id":"g1_count_int_1","type":"intuition","grade":1,"topic":"number sense","concept":"counting sequence","style":"story","content":"We use counting to know how many things we have. When we count toys or steps, we follow a number pattern.","solution":""}
+
+{"id":"g1_count_story_1","type":"story","grade":1,"topic":"number sense","concept":"counting sequence","style":"story","content":"A boy climbed stairs one by one: 1, 2, 3, 4. Then he went down: 4, 3, 2, 1. He was counting forward and backward.","solution":""}
+
+{"id":"g1_count_example_1","type":"example","grade":1,"topic":"number sense","concept":"counting sequence","style":"step-by-step","content":"What comes after 23?","solution":"Step 1: Count forward. Step 2: After 23 comes 24. Final answer: 24."}
+
+{"id":"g1_count_pattern_1","type":"reasoning_pattern","grade":1,"topic":"number sense","concept":"counting sequence","style":"step-by-step","content":"Words like 'next', 'after', 'before' are about number order.","solution":"Move forward or backward in the number sequence."}
+
+{"id":"g1_count_prob_1","type":"problem","grade":1,"topic":"number sense","concept":"counting sequence","style":"step-by-step","content":"What number comes before 10?","solution":"Step 1: Count backward from 10. Step 2: 9 comes before. Final answer: 9."}
+
+{"id":"g1_rw_def_1","type":"definition","grade":1,"topic":"number sense","concept":"reading writing numbers","style":"formal","content":"Numbers can be written in numerals (33) or words (thirty-three).","solution":""}
+
+{"id":"g1_rw_story_1","type":"story","grade":1,"topic":"number sense","concept":"reading writing numbers","style":"story","content":"Sara saw the number 25 on the board. Her teacher said, 'This is written as twenty-five.' Sara learned numbers can be read and written in words.","solution":""}
+
+{"id":"g1_rw_example_1","type":"example","grade":1,"topic":"number sense","concept":"reading writing numbers","style":"step-by-step","content":"Write 14 in words.","solution":"Step 1: 14 is read as fourteen. Final answer: fourteen."}
+
+{"id":"g1_rw_prob_1","type":"problem","grade":1,"topic":"number sense","concept":"reading writing numbers","style":"step-by-step","content":"Write 'twenty-one' in numbers.","solution":"Step 1: twenty-one = 21. Final answer: 21."}
+
+{"id":"g1_cmp_def_1","type":"definition","grade":1,"topic":"number sense","concept":"comparison","style":"formal","content":"Comparing numbers means telling which is greater, smaller, or equal.","solution":""}
+
+{"id":"g1_cmp_story_1","type":"story","grade":1,"topic":"number sense","concept":"comparison","style":"story","content":"Ali had 40 marbles and Zain had 30. Ali smiled because 40 is more than 30.","solution":""}
+
+{"id":"g1_cmp_example_1","type":"example","grade":1,"topic":"number sense","concept":"comparison","style":"step-by-step","content":"Compare 40 and 30.","solution":"Step 1: 40 is bigger than 30. Final answer: 40 > 30."}
+
+{"id":"g1_cmp_pattern_1","type":"reasoning_pattern","grade":1,"topic":"number sense","concept":"comparison","style":"step-by-step","content":"Words like 'greater', 'more', 'less', 'smaller' mean comparison.","solution":"Check which number is bigger or smaller."}
+
+{"id":"g1_cmp_prob_1","type":"problem","grade":1,"topic":"number sense","concept":"comparison","style":"step-by-step","content":"Which is smaller: 25 or 28?","solution":"Step 1: Compare both numbers. Step 2: 25 is smaller. Final answer: 25."}
+
+{"id":"g1_part_def_1","type":"definition","grade":1,"topic":"number sense","concept":"partitioning","style":"formal","content":"Partitioning means breaking a number into smaller parts.","solution":""}
+
+{"id":"g1_part_story_1","type":"story","grade":1,"topic":"number sense","concept":"partitioning","style":"story","content":"A teacher showed 23 blocks. She made 20 blocks in one group and 3 in another. She said, '23 is 20 + 3.'","solution":""}
+
+{"id":"g1_part_example_1","type":"example","grade":1,"topic":"number sense","concept":"partitioning","style":"step-by-step","content":"Break 15 into parts.","solution":"Step 1: 15 = 10 + 5. Final answer: 10 and 5."}
+
+{"id":"g1_part_prob_1","type":"problem","grade":1,"topic":"number sense","concept":"partitioning","style":"step-by-step","content":"Partition 18.","solution":"Step 1: 18 = 10 + 8. Final answer: 10 and 8."}
+
+{"id":"g1_diff_def_1","type":"definition","grade":1,"topic":"subtraction","concept":"difference","style":"formal","content":"Difference means how much more or less one number is than another.","solution":""}
+
+{"id":"g1_diff_story_1","type":"story","grade":1,"topic":"subtraction","concept":"difference","style":"story","content":"Ali had 10 candies and Sara had 7. Ali had 3 more candies. The difference is 3.","solution":""}
+
+{"id":"g1_diff_pattern_1","type":"reasoning_pattern","grade":1,"topic":"subtraction","concept":"difference","style":"step-by-step","content":"Words like 'difference', 'more than', 'less than' mean comparing numbers using subtraction.","solution":"Subtract to find the gap."}
+
+{"id":"g1_diff_prob_1","type":"problem","grade":1,"topic":"subtraction","concept":"difference","style":"step-by-step","content":"Find the difference between 10 and 7.","solution":"Step 1: 10 - 7 = 3. Final answer: 3."}
+
+{"id":"g1_skip_def_1","type":"definition","grade":1,"topic":"patterns","concept":"skip counting","style":"formal","content":"Skip counting means counting by jumps like 2s, 5s, or 10s.","solution":""}
+
+{"id":"g1_skip_story_1","type":"story","grade":1,"topic":"patterns","concept":"skip counting","style":"story","content":"A frog jumped across stones: 2, 4, 6, 8. It was skip counting by 2s.","solution":""}
+
+{"id":"g1_skip_example_1","type":"example","grade":1,"topic":"patterns","concept":"skip counting","style":"step-by-step","content":"Count by 5s starting from 5.","solution":"5, 10, 15, 20."}
+
+{"id":"g1_skip_prob_1","type":"problem","grade":1,"topic":"patterns","concept":"skip counting","style":"step-by-step","content":"What comes next: 10, 20, 30, __?","solution":"40"}
+
+{"id":"g1_ord_def_1","type":"definition","grade":1,"topic":"number sense","concept":"ordinal cardinal","style":"formal","content":"Cardinal numbers tell how many. Ordinal numbers tell position.","solution":""}
+
+{"id":"g1_ord_story_1","type":"story","grade":1,"topic":"number sense","concept":"ordinal cardinal","style":"story","content":"In a race, Ali came first and Zain came second. 'First' and 'second' show position.","solution":""}
+
+{"id":"g1_ord_prob_1","type":"problem","grade":1,"topic":"number sense","concept":"ordinal cardinal","style":"step-by-step","content":"What type is 'third'?","solution":"It shows position, so it is ordinal."}
+
+{"id":"g1_fw_def_1","type":"definition","grade":1,"topic":"fractions","concept":"fraction of whole","style":"formal","content":"Fractions show equal parts of a whole.","solution":""}
+
+{"id":"g1_fw_story_1","type":"story","grade":1,"topic":"fractions","concept":"fraction of whole","style":"story","content":"A pizza was cut into 4 equal slices. Each slice is one quarter.","solution":""}
+
+{"id":"g1_fw_prob_1","type":"problem","grade":1,"topic":"fractions","concept":"fraction of whole","style":"step-by-step","content":"A cake is cut into 2 equal parts. What is each part called?","solution":"Each part is a half."}
+
+{"id":"g1_fg_def_1","type":"definition","grade":1,"topic":"fractions","concept":"fraction of group","style":"formal","content":"A fraction of a group shows part of a set.","solution":""}
+
+{"id":"g1_fg_story_1","type":"story","grade":1,"topic":"fractions","concept":"fraction of group","style":"story","content":"There were 8 butterflies. 4 were red. Half of them were red butterflies.","solution":""}
+
+{"id":"g1_fg_prob_1","type":"problem","grade":1,"topic":"fractions","concept":"fraction of group","style":"step-by-step","content":"Find half of 6 apples.","solution":"Step 1: Divide 6 into 2 equal parts. Step 2: Each part is 3. Final answer: 3."}
+
+{"id":"g2_pv_def_1","type":"definition","grade":2,"topic":"number sense","concept":"3-digit place value","style":"formal","content":"3-digit place value means understanding hundreds, tens, and ones in a number.","solution":""}
+
+{"id":"g2_pv_int_1","type":"intuition","grade":2,"topic":"number sense","concept":"3-digit place value","style":"story","content":"Numbers are like boxes. The first box is hundreds, the middle is tens, and the last is ones. Each position changes the value of the digit.","solution":""}
+
+{"id":"g2_pv_story_1","type":"story","grade":2,"topic":"number sense","concept":"3-digit place value","style":"story","content":"Sara saw the number 354 on a board. Her teacher said, '3 is in hundreds, 5 is in tens, and 4 is in ones.' Sara imagined 3 big boxes, 5 small bundles, and 4 single sticks.","solution":""}
+
+{"id":"g2_pv_example_1","type":"example","grade":2,"topic":"number sense","concept":"3-digit place value","style":"step-by-step","content":"Break 472 into place values.","solution":"Step 1: 4 hundreds = 400. Step 2: 7 tens = 70. Step 3: 2 ones = 2. Final answer: 400 + 70 + 2."}
+
+{"id":"g2_pv_pattern_1","type":"reasoning_pattern","grade":2,"topic":"number sense","concept":"3-digit place value","style":"step-by-step","content":"Look at the position of each digit: left = hundreds, middle = tens, right = ones.","solution":"Assign value based on position."}
+
+{"id":"g2_pv_prob_1","type":"problem","grade":2,"topic":"number sense","concept":"3-digit place value","style":"step-by-step","content":"What is the value of 6 in 263?","solution":"Step 1: 6 is in tens place. Step 2: 6 × 10 = 60. Final answer: 60."}
+
+{"id":"g2_inv_def_1","type":"definition","grade":2,"topic":"arithmetic","concept":"inverse relationship","style":"formal","content":"Addition and subtraction are opposite operations that undo each other.","solution":""}
+
+{"id":"g2_inv_int_1","type":"intuition","grade":2,"topic":"arithmetic","concept":"inverse relationship","style":"story","content":"If you put toys in a box (addition), you can also take them out (subtraction). One undoes the other.","solution":""}
+
+{"id":"g2_inv_story_1","type":"story","grade":2,"topic":"arithmetic","concept":"inverse relationship","style":"story","content":"Ali added 5 + 3 and got 8. Then he checked by subtracting: 8 - 3 = 5. It was like reversing his action.","solution":""}
+
+{"id":"g2_inv_example_1","type":"example","grade":2,"topic":"arithmetic","concept":"inverse relationship","style":"step-by-step","content":"If 7 + 2 = 9, make a subtraction fact.","solution":"9 - 2 = 7 or 9 - 7 = 2."}
+
+{"id":"g2_inv_pattern_1","type":"reasoning_pattern","grade":2,"topic":"arithmetic","concept":"inverse relationship","style":"step-by-step","content":"If you know addition, you can check by subtracting from the total.","solution":"Use opposite operation to verify answer."}
+
+{"id":"g2_inv_prob_1","type":"problem","grade":2,"topic":"arithmetic","concept":"inverse relationship","style":"step-by-step","content":"Find the missing number: 6 + __ = 10","solution":"Step 1: 10 - 6 = 4. Final answer: 4."}
+
+{"id":"g2_mul_def_1","type":"definition","grade":2,"topic":"multiplication","concept":"repeated addition","style":"formal","content":"Multiplication means adding the same number again and again.","solution":""}
+
+{"id":"g2_mul_int_1","type":"intuition","grade":2,"topic":"multiplication","concept":"repeated addition","style":"story","content":"If you have equal groups, multiplication helps you count faster instead of adding again and again.","solution":""}
+
+{"id":"g2_mul_story_1","type":"story","grade":2,"topic":"multiplication","concept":"repeated addition","style":"story","content":"There were 4 boxes. Each box had 2 chocolates. Instead of counting one by one, Sara did 2 + 2 + 2 + 2 and found 8 chocolates.","solution":""}
+
+{"id":"g2_mul_example_1","type":"example","grade":2,"topic":"multiplication","concept":"repeated addition","style":"step-by-step","content":"Find 3 × 4 using addition.","solution":"Step 1: 4 + 4 + 4. Step 2: = 12. Final answer: 12."}
+
+{"id":"g2_mul_pattern_1","type":"reasoning_pattern","grade":2,"topic":"multiplication","concept":"repeated addition","style":"step-by-step","content":"If a problem says equal groups, use multiplication.","solution":"Multiply number of groups × items in each group."}
+
+{"id":"g2_mul_prob_1","type":"problem","grade":2,"topic":"multiplication","concept":"repeated addition","style":"step-by-step","content":"There are 5 bags. Each bag has 3 apples. How many apples total?","solution":"Step 1: 3 + 3 + 3 + 3 + 3. Step 2: = 15. Final answer: 15 apples."}
+
+{"id":"g2_arr_def_1","type":"definition","grade":2,"topic":"multiplication","concept":"arrays","style":"formal","content":"An array is a way to arrange objects in rows and columns to show multiplication.","solution":""}
+
+{"id":"g2_arr_int_1","type":"intuition","grade":2,"topic":"multiplication","concept":"arrays","style":"story","content":"Instead of counting objects randomly, we arrange them in rows to see patterns easily.","solution":""}
+
+{"id":"g2_arr_story_1","type":"story","grade":2,"topic":"multiplication","concept":"arrays","style":"story","content":"Zara arranged chairs in 3 rows with 4 chairs in each row. She quickly saw 12 chairs in total.","solution":""}
+
+{"id":"g2_arr_example_1","type":"example","grade":2,"topic":"multiplication","concept":"arrays","style":"step-by-step","content":"Find total objects in 2 rows of 5.","solution":"Step 1: 2 × 5. Step 2: = 10. Final answer: 10."}
+
+{"id":"g2_arr_prob_1","type":"problem","grade":2,"topic":"multiplication","concept":"arrays","style":"step-by-step","content":"There are 3 rows of 2 apples. How many apples?","solution":"Step 1: 3 × 2 = 6. Final answer: 6 apples."}
+
+{"id":"g2_cmp_def_1","type":"definition","grade":2,"topic":"number sense","concept":"comparison","style":"formal","content":"Comparing numbers means finding which is bigger, smaller, or equal.","solution":""}
+
+{"id":"g2_cmp_int_1","type":"intuition","grade":2,"topic":"number sense","concept":"comparison","style":"story","content":"If two friends have different amounts of candies, comparison helps us see who has more or less.","solution":""}
+
+{"id":"g2_cmp_story_1","type":"story","grade":2,"topic":"number sense","concept":"comparison","style":"story","content":"Ali had 120 marbles and Zain had 90. Ali had more marbles, so 120 is greater than 90.","solution":""}
+
+{"id":"g2_cmp_example_1","type":"example","grade":2,"topic":"number sense","concept":"comparison","style":"step-by-step","content":"Compare 150 and 130.","solution":"Step 1: Compare hundreds. Step 2: 150 is greater. Final answer: 150 > 130."}
+
+{"id":"g2_cmp_prob_1","type":"problem","grade":2,"topic":"number sense","concept":"comparison","style":"step-by-step","content":"Which is smaller: 245 or 254?","solution":"Step 1: Compare digits. Step 2: 245 is smaller. Final answer: 245."}
+
+{"id":"g3_oe_def_1","type":"definition","grade":3,"topic":"number properties","concept":"odd even","style":"formal","content":"Even numbers can be divided into two equal groups. Odd numbers cannot be divided equally into pairs.","solution":""}
+
+{"id":"g3_oe_int_1","type":"intuition","grade":3,"topic":"number properties","concept":"odd even","style":"story","content":"Even numbers are fair pairs. If every object can make a pair with no leftover, the number is even. If one is left alone, it is odd.","solution":""}
+
+{"id":"g3_oe_story_1","type":"story","grade":3,"topic":"number properties","concept":"odd even","style":"story","content":"Zara tried to pair her 8 candies. She made perfect pairs with none left. But when she had 9 candies, one was left alone. She learned 8 is even and 9 is odd.","solution":""}
+
+{"id":"g3_oe_example_1","type":"example","grade":3,"topic":"number properties","concept":"odd even","style":"step-by-step","content":"Is 14 odd or even?","solution":"Step 1: Check last digit (4). Step 2: 4 can be paired. Final answer: Even."}
+
+{"id":"g3_oe_pattern_1","type":"reasoning_pattern","grade":3,"topic":"number properties","concept":"odd even","style":"step-by-step","content":"If the last digit is 0,2,4,6,8 → even. If 1,3,5,7,9 → odd.","solution":"Check last digit rule."}
+
+{"id":"g3_oe_prob_1","type":"problem","grade":3,"topic":"number properties","concept":"odd even","style":"step-by-step","content":"Is 27 odd or even?","solution":"Step 1: Last digit is 7. Step 2: 7 means odd. Final answer: Odd."}
+
+{"id":"g3_fn_def_1","type":"definition","grade":3,"topic":"fractions","concept":"number line fractions","style":"formal","content":"Fractions show parts of a whole and can be placed on a number line between 0 and 1.","solution":""}
+
+{"id":"g3_fn_int_1","type":"intuition","grade":3,"topic":"fractions","concept":"number line fractions","style":"story","content":"A number line is like a path from 0 to 1. Fractions are steps between them.","solution":""}
+
+{"id":"g3_fn_story_1","type":"story","grade":3,"topic":"fractions","concept":"number line fractions","style":"story","content":"Ali drew a line from 0 to 1. He marked the middle point as 1/2. He realized it is exactly halfway between 0 and 1.","solution":""}
+
+{"id":"g3_fn_example_1","type":"example","grade":3,"topic":"fractions","concept":"number line fractions","style":"step-by-step","content":"Where is 1/2 on a number line from 0 to 1?","solution":"Step 1: Divide into 2 equal parts. Step 2: Middle point is 1/2."}
+
+{"id":"g3_fn_pattern_1","type":"reasoning_pattern","grade":3,"topic":"fractions","concept":"number line fractions","style":"step-by-step","content":"Denominator tells how many equal parts the whole is divided into.","solution":"Split number line into equal parts."}
+
+{"id":"g3_fn_prob_1","type":"problem","grade":3,"topic":"fractions","concept":"number line fractions","style":"step-by-step","content":"Where is 1/4 on a number line from 0 to 1?","solution":"Step 1: Divide line into 4 equal parts. Step 2: First mark is 1/4."}
+
+{"id":"g3_fc_def_1","type":"definition","grade":3,"topic":"fractions","concept":"fraction comparison","style":"formal","content":"Fractions represent parts of a whole and can be compared based on size.","solution":""}
+
+{"id":"g3_fc_int_1","type":"intuition","grade":3,"topic":"fractions","concept":"fraction comparison","style":"story","content":"If a pizza is cut into more pieces, each slice becomes smaller.","solution":""}
+
+{"id":"g3_fc_example_1","type":"example","grade":3,"topic":"fractions","concept":"fraction comparison","style":"step-by-step","content":"Which is bigger: 1/2 or 1/4?","solution":"Step 1: Same whole. Step 2: 1/2 has fewer parts → bigger. Final answer: 1/2."}
+
+{"id":"g3_fc_prob_1","type":"problem","grade":3,"topic":"fractions","concept":"fraction comparison","style":"step-by-step","content":"Which is smaller: 1/3 or 1/2?","solution":"Step 1: More parts means smaller pieces. Step 2: 1/3 is smaller."}
+
+{"id":"g3_pr_def_1","type":"definition","grade":3,"topic":"patterns","concept":"number patterns","style":"formal","content":"Patterns are sequences that follow a rule.","solution":""}
+
+{"id":"g3_pr_int_1","type":"intuition","grade":3,"topic":"patterns","concept":"number patterns","style":"story","content":"Numbers often grow or repeat in a rule. Finding the rule helps predict the next number.","solution":""}
+
+{"id":"g3_pr_story_1","type":"story","grade":3,"topic":"patterns","concept":"number patterns","style":"story","content":"A frog jumped: 2, 4, 6, 8. It kept adding 2 each time.","solution":""}
+
+{"id":"g3_pr_example_1","type":"example","grade":3,"topic":"patterns","concept":"number patterns","style":"step-by-step","content":"Find next number: 5, 10, 15, __","solution":"Step 1: Add 5 each time. Step 2: 15 + 5 = 20."}
+
+{"id":"g3_pr_pattern_1","type":"reasoning_pattern","grade":3,"topic":"patterns","concept":"number patterns","style":"step-by-step","content":"Look at difference between numbers to find rule.","solution":"Identify pattern rule."}
+
+{"id":"g3_pr_prob_1","type":"problem","grade":3,"topic":"patterns","concept":"number patterns","style":"step-by-step","content":"Complete: 3, 6, 9, __","solution":"Step 1: Add 3 each time. Step 2: 9 + 3 = 12."}
+
+{"id":"g3_me_def_1","type":"definition","grade":3,"topic":"measurement","concept":"basic units","style":"formal","content":"Measurement tells us how long, heavy, or much something is using standard units.","solution":""}
+
+{"id":"g3_me_int_1","type":"intuition","grade":3,"topic":"measurement","concept":"basic units","style":"story","content":"We use rulers for length, scales for weight, and liters for liquid.","solution":""}
+
+{"id":"g3_me_example_1","type":"example","grade":3,"topic":"measurement","concept":"basic units","style":"step-by-step","content":"Which unit is used to measure length?","solution":"Step 1: Length is distance. Step 2: Use cm or m. Final answer: cm or m."}
+
+{"id":"g3_me_prob_1","type":"problem","grade":3,"topic":"measurement","concept":"basic units","style":"step-by-step","content":"What would you use to measure water?","solution":"Step 1: Liquid uses liters. Final answer: liters."}
+
+{"id":"g4_eq_def_1","type":"definition","grade":4,"topic":"fractions","concept":"equivalent fractions","style":"formal","content":"Equivalent fractions are different fractions that represent the same value or amount.","solution":""}
+
+{"id":"g4_eq_int_1","type":"intuition","grade":4,"topic":"fractions","concept":"equivalent fractions","style":"story","content":"If you cut a pizza into more slices, the size of each slice becomes smaller, but the total amount is still the same pizza.","solution":""}
+
+{"id":"g4_eq_story_1","type":"story","grade":4,"topic":"fractions","concept":"equivalent fractions","style":"story","content":"Ali had a chocolate bar. He broke it into 2 equal parts and ate 1 part. Later, he saw another bar cut into 4 parts and ate 2. He realized both times he ate the same amount.","solution":""}
+
+{"id":"g4_eq_example_1","type":"example","grade":4,"topic":"fractions","concept":"equivalent fractions","style":"step-by-step","content":"Show an equivalent fraction of 1/2.","solution":"Step 1: Multiply top and bottom by 2. Step 2: (1×2)/(2×2) = 2/4. Final answer: 2/4."}
+
+{"id":"g4_eq_pattern_1","type":"reasoning_pattern","grade":4,"topic":"fractions","concept":"equivalent fractions","style":"step-by-step","content":"To find equivalent fractions, multiply or divide numerator and denominator by the same number.","solution":"Keep value same by scaling both parts equally."}
+
+{"id":"g4_eq_prob_1","type":"problem","grade":4,"topic":"fractions","concept":"equivalent fractions","style":"step-by-step","content":"Is 2/3 equivalent to 4/6?","solution":"Step 1: Multiply 2/3 by 2 → 4/6. Step 2: Both are same value. Final answer: Yes."}
+
+{"id":"g4_ang_def_1","type":"definition","grade":4,"topic":"geometry","concept":"angles","style":"formal","content":"An angle is formed when two lines meet at a point. It measures how much they open.","solution":""}
+
+{"id":"g4_ang_int_1","type":"intuition","grade":4,"topic":"geometry","concept":"angles","style":"story","content":"Imagine opening a book. The wider it opens, the bigger the angle.","solution":""}
+
+{"id":"g4_ang_story_1","type":"story","grade":4,"topic":"geometry","concept":"angles","style":"story","content":"Sara noticed corners of her classroom desk. Some corners were sharp (small angle), some were exactly square (right angle), and some were wide (obtuse angle).","solution":""}
+
+{"id":"g4_ang_example_1","type":"example","grade":4,"topic":"geometry","concept":"angles","style":"step-by-step","content":"What is a right angle?","solution":"Step 1: A right angle = 90 degrees. Step 2: It forms an L-shape. Final answer: 90° angle."}
+
+{"id":"g4_ang_pattern_1","type":"reasoning_pattern","grade":4,"topic":"geometry","concept":"angles","style":"step-by-step","content":"Right angle = 90°, acute < 90°, obtuse > 90°.","solution":"Compare angle size."}
+
+{"id":"g4_ang_prob_1","type":"problem","grade":4,"topic":"geometry","concept":"angles","style":"step-by-step","content":"Is 120° acute or obtuse?","solution":"Step 1: 120 > 90. Step 2: So it is obtuse. Final answer: obtuse angle."}
+
+{"id":"g4_ln_def_1","type":"definition","grade":4,"topic":"geometry","concept":"lines","style":"formal","content":"A line is a straight path that extends forever in both directions.","solution":""}
+
+{"id":"g4_ln_int_1","type":"intuition","grade":4,"topic":"geometry","concept":"lines","style":"story","content":"Think of a road that never ends in both directions — that is like a line.","solution":""}
+
+{"id":"g4_ln_story_1","type":"story","grade":4,"topic":"geometry","concept":"lines","style":"story","content":"Ali drew a straight line in his notebook. His teacher said it goes on forever if you imagine it extending both sides.","solution":""}
+
+{"id":"g4_ln_example_1","type":"example","grade":4,"topic":"geometry","concept":"lines","style":"step-by-step","content":"What is a line segment?","solution":"Step 1: A line segment has two endpoints. Step 2: It does not extend forever. Final answer: finite line."}
+
+{"id":"g4_ac_def_1","type":"definition","grade":4,"topic":"geometry","concept":"angle classification","style":"formal","content":"Angles are classified by their size: acute, right, and obtuse.","solution":""}
+
+{"id":"g4_ac_int_1","type":"intuition","grade":4,"topic":"geometry","concept":"angle classification","style":"story","content":"Small opening = acute, perfect corner = right, wide opening = obtuse.","solution":""}
+
+{"id":"g4_ac_example_1","type":"example","grade":4,"topic":"geometry","concept":"angle classification","style":"step-by-step","content":"Classify 45° angle.","solution":"Step 1: 45 < 90. Step 2: It is acute. Final answer: acute angle."}
+
+{"id":"g4_ac_prob_1","type":"problem","grade":4,"topic":"geometry","concept":"angle classification","style":"step-by-step","content":"Classify 90° angle.","solution":"Step 1: 90 is exactly right angle. Final answer: right angle."}
+
+{"id":"g4_fc_def_1","type":"definition","grade":4,"topic":"fractions","concept":"fraction comparison","style":"formal","content":"Fractions can be compared by looking at how many equal parts the whole is divided into.","solution":""}
+
+{"id":"g4_fc_int_1","type":"intuition","grade":4,"topic":"fractions","concept":"fraction comparison","style":"story","content":"If a pizza is cut into fewer slices, each slice is bigger.","solution":""}
+
+{"id":"g4_fc_example_1","type":"example","grade":4,"topic":"fractions","concept":"fraction comparison","style":"step-by-step","content":"Which is bigger: 3/4 or 2/4?","solution":"Step 1: Same denominator. Step 2: Compare numerators. Step 3: 3 > 2. Final answer: 3/4."}
+
+{"id":"g4_fc_pattern_1","type":"reasoning_pattern","grade":4,"topic":"fractions","concept":"fraction comparison","style":"step-by-step","content":"Same denominator → compare numerators. Same numerator → smaller denominator is bigger fraction.","solution":"Use comparison rule."}
+
+{"id":"g4_gr_def_1","type":"definition","grade":4,"topic":"geometry","concept":"shape reasoning","style":"formal","content":"Geometry reasoning involves understanding shapes, angles, and relationships between parts of figures.","solution":""}
+
+{"id":"g4_gr_int_1","type":"intuition","grade":4,"topic":"geometry","concept":"shape reasoning","style":"story","content":"Shapes are everywhere in real life — doors, windows, books — and geometry helps us understand them.","solution":""}
+
+{"id":"g4_gr_example_1","type":"example","grade":4,"topic":"geometry","concept":"shape reasoning","style":"step-by-step","content":"How many right angles does a square have?","solution":"Step 1: A square has 4 equal corners. Step 2: Each is 90°. Final answer: 4 right angles."}
+
+{"id":"g4_gr_prob_1","type":"problem","grade":4,"topic":"geometry","concept":"shape reasoning","style":"step-by-step","content":"Does a rectangle have right angles?","solution":"Step 1: Rectangle corners are all 90°. Final answer: Yes, 4 right angles."}
+
+{"id":"g5_per_def_1","type":"definition","grade":5,"topic":"geometry","concept":"perimeter","style":"formal","content":"Perimeter is the total distance around the outside of a shape.","solution":""}
+
+{"id":"g5_per_int_1","type":"intuition","grade":5,"topic":"geometry","concept":"perimeter","style":"story","content":"If you walk around the boundary of a park, the distance you walk is the perimeter.","solution":""}
+
+{"id":"g5_per_story_1","type":"story","grade":5,"topic":"geometry","concept":"perimeter","style":"story","content":"Ali walked around a rectangular garden. He measured each side and added them to find how far he walked in total.","solution":""}
+
+{"id":"g5_per_example_1","type":"example","grade":5,"topic":"geometry","concept":"perimeter","style":"step-by-step","content":"Find the perimeter of a rectangle with length 5 cm and width 3 cm.","solution":"Step 1: Perimeter = 2 × (length + width). Step 2: 2 × (5 + 3) = 2 × 8 = 16 cm."}
+
+{"id":"g5_per_pattern_1","type":"reasoning_pattern","grade":5,"topic":"geometry","concept":"perimeter","style":"step-by-step","content":"To find perimeter, add all sides of the shape. For rectangles, use 2(l + w).","solution":"Use boundary addition rule."}
+
+{"id":"g5_per_prob_1","type":"problem","grade":5,"topic":"geometry","concept":"perimeter","style":"step-by-step","content":"A rectangle has length 6 cm and width 2 cm. Find perimeter.","solution":"Step 1: P = 2(l + w). Step 2: 2(6 + 2) = 2 × 8 = 16 cm. Final answer: 16 cm."}
+
+{"id":"g5_area_def_1","type":"definition","grade":5,"topic":"geometry","concept":"area","style":"formal","content":"Area is the amount of space inside a shape.","solution":""}
+
+{"id":"g5_area_int_1","type":"intuition","grade":5,"topic":"geometry","concept":"area","style":"story","content":"If you cover a floor with tiles, the number of tiles needed shows the area.","solution":""}
+
+{"id":"g5_area_story_1","type":"story","grade":5,"topic":"geometry","concept":"area","style":"story","content":"Sara wanted to cover her room floor. She measured length and width and multiplied them to find how many square units were needed.","solution":""}
+
+{"id":"g5_area_example_1","type":"example","grade":5,"topic":"geometry","concept":"area","style":"step-by-step","content":"Find area of 5 cm × 3 cm rectangle.","solution":"Step 1: Area = length × width. Step 2: 5 × 3 = 15 cm²."}
+
+{"id":"g5_area_pattern_1","type":"reasoning_pattern","grade":5,"topic":"geometry","concept":"area","style":"step-by-step","content":"For rectangles, area is length × width. Always multiply side lengths.","solution":"Use multiplication rule for space."}
+
+{"id":"g5_area_prob_1","type":"problem","grade":5,"topic":"geometry","concept":"area","style":"step-by-step","content":"A room is 4 m long and 3 m wide. Find area.","solution":"Step 1: A = 4 × 3. Step 2: = 12 m². Final answer: 12 square meters."}
+
+{"id":"g5_ms_def_1","type":"definition","grade":5,"topic":"word problems","concept":"multi-step problems","style":"formal","content":"Multi-step problems require more than one operation to reach the final answer.","solution":""}
+
+{"id":"g5_ms_int_1","type":"intuition","grade":5,"topic":"word problems","concept":"multi-step problems","style":"story","content":"Some real-life problems cannot be solved in one step. We must break them into smaller parts.","solution":""}
+
+{"id":"g5_ms_story_1","type":"story","grade":5,"topic":"word problems","concept":"multi-step problems","style":"story","content":"A shop sold boxes of chocolates. First they counted total chocolates, then subtracted what was sold to find what remained.","solution":""}
+
+{"id":"g5_ms_example_1","type":"example","grade":5,"topic":"word problems","concept":"multi-step problems","style":"step-by-step","content":"4 boxes with 12 chocolates each. 10 sold. How many left?","solution":"Step 1: 4 × 12 = 48. Step 2: 48 - 10 = 38. Final answer: 38 chocolates."}
+
+{"id":"g5_ms_pattern_1","type":"reasoning_pattern","grade":5,"topic":"word problems","concept":"multi-step problems","style":"step-by-step","content":"Break problem into stages: first total, then change (add/subtract).","solution":"Solve step-by-step in order."}
+
+{"id":"g5_ms_prob_1","type":"problem","grade":5,"topic":"word problems","concept":"multi-step problems","style":"step-by-step","content":"A shop has 3 boxes of 15 apples. 7 apples are sold. How many remain?","solution":"Step 1: 3 × 15 = 45. Step 2: 45 - 7 = 38. Final answer: 38 apples."}
+
+{"id":"g5_unit_def_1","type":"definition","grade":5,"topic":"measurement","concept":"units","style":"formal","content":"Units tell us what we are measuring, such as cm, m, kg, or liters.","solution":""}
+
+{"id":"g5_unit_int_1","type":"intuition","grade":5,"topic":"measurement","concept":"units","style":"story","content":"Numbers alone are not enough. We must know if we are measuring length, weight, or volume.","solution":""}
+
+{"id":"g5_unit_example_1","type":"example","grade":5,"topic":"measurement","concept":"units","style":"step-by-step","content":"What unit is used for area?","solution":"Step 1: Area is space. Step 2: Use square units. Final answer: cm² or m²."}
+
+{"id":"g5_unit_prob_1","type":"problem","grade":5,"topic":"measurement","concept":"units","style":"step-by-step","content":"What unit would you use for length of a table?","solution":"Step 1: Length uses cm or m. Final answer: cm or m."}
+
+{"id":"g5_geo_def_1","type":"definition","grade":5,"topic":"geometry","concept":"shape reasoning","style":"formal","content":"Shape reasoning involves understanding properties like sides, angles, and dimensions.","solution":""}
+
+{"id":"g5_geo_int_1","type":"intuition","grade":5,"topic":"geometry","concept":"shape reasoning","style":"story","content":"We see shapes everywhere. Understanding them helps us measure and design things.","solution":""}
+
+{"id":"g5_geo_example_1","type":"example","grade":5,"topic":"geometry","concept":"shape reasoning","style":"step-by-step","content":"How many sides does a rectangle have?","solution":"Step 1: Count sides. Step 2: Rectangle has 4 sides. Final answer: 4."}
+
+{"id":"g5_geo_prob_1","type":"problem","grade":5,"topic":"geometry","concept":"shape reasoning","style":"step-by-step","content":"Is a square also a rectangle?","solution":"Step 1: Both have 4 right angles. Step 2: Yes, square is a special rectangle."}
+
+{"id":"g6_int_def_1","type":"definition","grade":6,"topic":"number systems","concept":"integers","style":"formal","content":"Integers include positive numbers, negative numbers, and zero.","solution":""}
+
+{"id":"g6_int_int_1","type":"intuition","grade":6,"topic":"number systems","concept":"integers","style":"story","content":"Integers are like positions on a number line. Numbers to the right are positive, to the left are negative.","solution":""}
+
+{"id":"g6_int_story_1","type":"story","grade":6,"topic":"number systems","concept":"integers","style":"story","content":"On a cold day, the temperature dropped below zero. At -3°C, it was colder than 0°C. Numbers below zero are negative.","solution":""}
+
+{"id":"g6_int_example_1","type":"example","grade":6,"topic":"number systems","concept":"integers","style":"step-by-step","content":"Which is smaller: -4 or -2?","solution":"Step 1: On number line, -4 is further left. Step 2: Left means smaller. Final answer: -4."}
+
+{"id":"g6_int_pattern_1","type":"reasoning_pattern","grade":6,"topic":"number systems","concept":"integers","style":"step-by-step","content":"For negative numbers, the number with the greater absolute value is smaller.","solution":"Farther left = smaller value."}
+
+{"id":"g6_int_prob_1","type":"problem","grade":6,"topic":"number systems","concept":"integers","style":"step-by-step","content":"Which is greater: -1 or -5?","solution":"Step 1: -1 is closer to zero. Step 2: Closer to zero is greater. Final answer: -1."}
+
+{"id":"g6_nl_def_1","type":"definition","grade":6,"topic":"number systems","concept":"number line integers","style":"formal","content":"A number line shows numbers in order from left (negative) to right (positive).","solution":""}
+
+{"id":"g6_nl_int_1","type":"intuition","grade":6,"topic":"number systems","concept":"number line integers","style":"story","content":"Think of a ladder: going right goes up (positive), going left goes down (negative).","solution":""}
+
+{"id":"g6_nl_example_1","type":"example","grade":6,"topic":"number systems","concept":"number line integers","style":"step-by-step","content":"Where is -3 compared to -1?","solution":"Step 1: -3 is left of -1. Step 2: Left means smaller."}
+
+{"id":"g6_nl_prob_1","type":"problem","grade":6,"topic":"number systems","concept":"number line integers","style":"step-by-step","content":"Order: -2, 3, -5 from smallest to largest.","solution":"Step 1: -5 is smallest. Step 2: Then -2. Step 3: Then 3. Final answer: -5, -2, 3."}
+
+{"id":"g6_rw_def_1","type":"definition","grade":6,"topic":"number systems","concept":"real world integers","style":"formal","content":"Integers are used to represent real-world situations like temperature, height below sea level, and money debt.","solution":""}
+
+{"id":"g6_rw_int_1","type":"intuition","grade":6,"topic":"number systems","concept":"real world integers","style":"story","content":"Negative numbers appear in real life when we go below zero, below sea level, or owe money.","solution":""}
+
+{"id":"g6_rw_story_1","type":"story","grade":6,"topic":"number systems","concept":"real world integers","style":"story","content":"Ali had 5 rupees but owed 3 to his friend. His balance became -3 after spending more than he had.","solution":""}
+
+{"id":"g6_rw_example_1","type":"example","grade":6,"topic":"number systems","concept":"real world integers","style":"step-by-step","content":"Temperature was 2°C and dropped by 5°C. What is new temperature?","solution":"Step 1: 2 - 5 = -3. Final answer: -3°C."}
+
+{"id":"g6_rw_prob_1","type":"problem","grade":6,"topic":"number systems","concept":"real world integers","style":"step-by-step","content":"A diver is 2 meters above sea level and goes down 6 meters. Where is he now?","solution":"Step 1: 2 - 6 = -4. Final answer: -4 meters."}
+
+{"id":"g6_abs_def_1","type":"definition","grade":6,"topic":"number systems","concept":"absolute value","style":"formal","content":"Absolute value is the distance of a number from zero, regardless of direction.","solution":""}
+
+{"id":"g6_abs_int_1","type":"intuition","grade":6,"topic":"number systems","concept":"absolute value","style":"story","content":"Distance does not care about direction. Whether you go left or right, distance is always positive.","solution":""}
+
+{"id":"g6_abs_example_1","type":"example","grade":6,"topic":"number systems","concept":"absolute value","style":"step-by-step","content":"Find | -7 |","solution":"Step 1: Distance from zero. Step 2: 7 units. Final answer: 7."}
+
+{"id":"g6_abs_prob_1","type":"problem","grade":6,"topic":"number systems","concept":"absolute value","style":"step-by-step","content":"Which is greater in distance from zero: -4 or 3?","solution":"Step 1: |-4| = 4, |3| = 3. Step 2: 4 > 3. Final answer: -4 is farther."}
+
+{"id":"g6_cmp_def_1","type":"definition","grade":6,"topic":"number systems","concept":"integer comparison","style":"formal","content":"Comparing integers means determining which number is greater or smaller on the number line.","solution":""}
+
+{"id":"g6_cmp_int_1","type":"intuition","grade":6,"topic":"number systems","concept":"integer comparison","style":"story","content":"On a number line, numbers to the right are always greater than numbers to the left.","solution":""}
+
+{"id":"g6_cmp_example_1","type":"example","grade":6,"topic":"number systems","concept":"integer comparison","style":"step-by-step","content":"Compare -3 and -8.","solution":"Step 1: -3 is to the right of -8. Step 2: Right means greater. Final answer: -3 > -8."}
+
+{"id":"g6_cmp_prob_1","type":"problem","grade":6,"topic":"number systems","concept":"integer comparison","style":"step-by-step","content":"Order from greatest to smallest: -1, -7, 4","solution":"Step 1: 4 is greatest. Step 2: Then -1. Step 3: Then -7. Final answer: 4, -1, -7."}
+
+{"id":"g6_ms_def_1","type":"definition","grade":6,"topic":"word problems","concept":"integer word problems","style":"formal","content":"Integer word problems involve positive and negative changes in real-life situations.","solution":""}
+
+{"id":"g6_ms_int_1","type":"intuition","grade":6,"topic":"word problems","concept":"integer word problems","style":"story","content":"Real life changes involve gains and losses, like money, temperature, or elevation.","solution":""}
+
+{"id":"g6_ms_example_1","type":"example","grade":6,"topic":"word problems","concept":"integer word problems","style":"step-by-step","content":"Temperature is 5°C. It drops by 8°C. What is new temperature?","solution":"Step 1: 5 - 8. Step 2: = -3. Final answer: -3°C."}
+
+{"id":"g6_ms_prob_1","type":"problem","grade":6,"topic":"word problems","concept":"integer word problems","style":"step-by-step","content":"A player gains 3 points and then loses 7. What is final score?","solution":"Step 1: 3 - 7 = -4. Final answer: -4."}
