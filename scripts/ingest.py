@@ -15,8 +15,8 @@ from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 
 # --- CONFIG ---
-INDEX_PATH = "./vector_db/math_index"
-CONTENT_FILE = "./data/math_content.jsonl"   # 🔥 CHANGED (IMPORTANT)
+INDEX_PATH = "../vector_db/math_index"
+CONTENT_FILE = "../data/math_content.jsonl"   # 🔥 CHANGED (IMPORTANT)
 EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 
 
