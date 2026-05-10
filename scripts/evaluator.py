@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 import json
 import numpy as np
+from pathlib import Path
 from rag_engine import MathRAGEngine
+
+RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
 
 # =========================================================
 # NON-RAG BASELINE (DIRECT GEMMA)
@@ -165,22 +168,30 @@ def generate_report(rag_scores, base_scores, multi_scores):
 
 def plot_results(rag_scores, base_scores, multi_scores):
 
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    rag_plot_path = RESULTS_DIR / "rag_vs_baseline.png"
+    multi_plot_path = RESULTS_DIR / "multi_turn.png"
+
     # 1. RAG vs BASELINE
     plt.figure()
     plt.plot(rag_scores, label="RAG")
     plt.plot(base_scores, label="Baseline")
     plt.title("RAG vs Baseline Performance")
+    plt.xlabel("Test Case #")
+    plt.ylabel("Score")
     plt.legend()
-    plt.savefig("rag_vs_baseline.png")
+    plt.savefig(rag_plot_path)
 
     # 2. Multi-turn reasoning stability
     plt.figure()
     plt.plot(multi_scores, label="Multi-Turn RAG")
     plt.title("Multi-Turn Reasoning Stability")
+    plt.xlabel("Conversation Turn")
+    plt.ylabel("Reasoning Depth Score")
     plt.legend()
-    plt.savefig("multi_turn.png")
+    plt.savefig(multi_plot_path)
 
-    print("\n📈 Charts saved: rag_vs_baseline.png, multi_turn.png")
+    print(f"\n📈 Charts saved: {rag_plot_path}, {multi_plot_path}")
 
 
 # =========================================================
