@@ -3,7 +3,7 @@ rag_env/
 
 # Reports
 evaluation_report.json
-DL_Proj02_Report.json
+DL_Proj02_Report.pdf
 
 # Python
 __pycache__/
