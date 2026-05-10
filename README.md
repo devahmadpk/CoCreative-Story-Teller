@@ -82,10 +82,10 @@ Final Response (Answer + Story)
 
 ## Project Structure
 
-Project 02/
+RAG Proj/
 ├── rag_env/                  # Virtual environment
 ├── data/
-│   └── math_content.txt      # Structured math knowledge base
+│   └── math_content.jsonl      # Structured math knowledge base
 ├── vector_db/
 │   └── math_index/           # FAISS index files
 ├── scripts/
@@ -107,7 +107,7 @@ https://ollama.com
 Pull the required model:
 
 ```
-ollama pull gemma:2b
+ollama pull gemma:2b 
 ```
 
 ---
@@ -137,7 +137,7 @@ rag_env\Scripts\activate
 Install dependencies:
 
 ```
-pip install langchain langchain-community langchain-huggingface faiss-cpu sentence-transformers
+pip install langchain langchain-community langchain-huggingface faiss-cpu sentence-transformers ollama langchain-ollama
 ```
 
 ---
@@ -168,6 +168,14 @@ This will:
 
 ```
 python scripts/rag_engine.py
+```
+
+---
+
+### 4. Run the Baseline Gemma Model
+
+```
+ollama run gemma:2b
 ```
 
 ---
@@ -219,7 +227,7 @@ Measures:
 
 ## Results
 ### Multi Turn Performance
-![Multi Turn Performance](results/multi-turn.png)
+![Multi Turn Performance](results/multi_turn.png)
 
 ### Rag vs Baseline Results
 ![Rag vs Baseline Results](results/rag_vs_baseline.png)
