@@ -147,7 +147,7 @@ pip install langchain langchain-community langchain-huggingface faiss-cpu senten
 Populate your knowledge base file:
 
 ```
-data/math_content.txt
+data/math_content.jsonl
 ```
 
 Then run:
