@@ -11,14 +11,18 @@ from langchain_huggingface import HuggingFaceEmbeddings
 # =========================================================
 
 EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
-LLM_MODEL       = "gemma2:2b"
+LLM_MODEL       = "gemma2:2b" 
 
 BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDEX_PATH = os.path.join(BASE_DIR, "vector_db", "math_index")
 
+# Context window
 MAX_HISTORY = 12
+# Number of RAG chunks to retrieve. Smaller value to ensure that the model doesnt get overwhelmed with too much context
+#  and can focus on the most relevant pieces of knowledge.
 RAG_K       = 2
 
+# These are added so that we can skip vector search and prevent the model from getting confused
 VAGUE_TRIGGERS = {
     "yes", "yeah", "yep", "ok", "okay", "sure", "go", "more",
     "again", "next", "continue", "another", "yup", "alright",
@@ -64,9 +68,14 @@ class NumericStateTracker:
                                            so model computes 6+5=11, not 3+5=8
     """
 
+    # dictionary to store the state of quantities
     def __init__(self):
         self.quantities: dict[str, int] = {}
 
+    # This function scans the LLM's response for patterns like "you have 6 apples" and updates the internal state 
+    # accordingly. It uses regex to find phrases that indicate a total quantity and extracts the number and item name. 
+    # This allows the engine to keep an accurate running total of quantities mentioned throughout the conversation, 
+    # which can then be injected into future prompts as context.
     def update_from_response(self, response: str):
         """Scan LLM response for the final computed total and store it."""
         patterns = [
@@ -85,6 +94,7 @@ class NumericStateTracker:
 
     def update_from_query(self, query: str):
         """Scan user message for initial quantity declarations."""
+        # This function looks for patterns in the user's query that indicate they are stating a quantity 
         pattern = (
             r"(?:have|got|found|picked up|start with)\s+"
             r"(\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s+([a-z]+)"
@@ -93,8 +103,11 @@ class NumericStateTracker:
             "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
             "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10
         }
+
+        # We only update if we haven't seen that item before, to avoid overwriting the running total with an initial declaration in a later turn
         for count_str, item in re.findall(pattern, query.lower()):
             item_clean = item.rstrip("s") if len(item) > 3 else item
+            # check if its available in word_to_num or if its a digit, otherwise skip
             if item_clean not in self.quantities:
                 count = word_to_num.get(count_str) or (
                     int(count_str) if count_str.isdigit() else None
@@ -108,11 +121,13 @@ class NumericStateTracker:
         e.g. "The child currently has: 8 apples, 4 sticks."
         Gemma ignores [TAG] formats but reliably reads plain sentences.
         """
-        if not self.quantities:
+        if not  self.quantities:
             return ""
+        # This builds a string like "The child currently has: 8 apple, 4 stick." based on the current state of quantities.
         parts = ", ".join(f"{val} {item}s" for item, val in self.quantities.items())
         return f"The child currently has: {parts}."
 
+    # This resets the internal state of tracked quantities, which can be useful when starting a new session or after a "reset" command from the user.
     def reset(self):
         self.quantities.clear()
 
@@ -139,22 +154,27 @@ class PromptEngine:
         if state_context:
             parts.append(state_context)
 
+        # RAG context framed as optional background info, so model can choose to use it or not. This prevents irrelevant chunks from causing hallucination.
         if context_docs:
             context_text = "\n".join(
                 f"- {doc.page_content[:200]}" for doc in context_docs
             )
             parts.append(f"Background (use only if relevant):\n{context_text}")
 
+        # Finally, the user's question. This is the main focus of the turn and comes last so it stays top of mind as the model reads the prompt.
         parts.append(f"Question: {query}")
         return "\n\n".join(parts)
 
+    # This builds a clean version of the user's turn for storing in chat history, without the RAG context or state context. This prevents the model from getting
+    #  confused by irrelevant information when it looks back at history to answer vague follow-up questions. The history should reflect what the user
+    #  actually said, not the augmented prompt that was used for that turn.
     def build_user_turn_clean(self, query: str) -> str:
         """Clean version for history — no RAG blob, no state block."""
         return query
 
 
 # =========================================================
-# MAIN ENGINE
+# MAIN ENGINE   
 # =========================================================
 
 class MathRAGEngine:
@@ -172,12 +192,12 @@ class MathRAGEngine:
         self.db = FAISS.load_local(
             INDEX_PATH,
             self.embeddings,
-            allow_dangerous_deserialization=True,
+            allow_dangerous_deserialization=True, # Needed to load FAISS index with metadata filtering functions. 
         )
 
-        self.prompt_engine = PromptEngine()
-        self.state_tracker = NumericStateTracker()
-        self.chat_history: list[dict] = []
+        self.prompt_engine = PromptEngine() # This handles the assembly of the user turn with state and RAG context.
+        self.state_tracker = NumericStateTracker() # This keeps track of quantities mentioned in the conversation so the model can refer to them without having to re-parse old messages
+        self.chat_history: list[dict] = [] # saves chat history. Allows the engine to look back at previous turns for context when answering vague follow-ups.
 
         print(f"Engine ready. Model: {LLM_MODEL}\n")
 
@@ -271,11 +291,12 @@ class MathRAGEngine:
             }
         ]
 
+        # If the user gives a vague query, we use the LLM to expand it a bit to get context
         try:
             result = ollama.chat(
                 model=LLM_MODEL,
                 messages=expand_messages,
-                options={"temperature": 0.1, "num_predict": 60}
+                options={"temperature": 0.1, "num_predict": 60} # We want a deterministic, concise rewrite, so low temperature and short response length.
             )
             expanded = result["message"]["content"].strip()
             if expanded and len(expanded) < 200:
@@ -289,7 +310,10 @@ class MathRAGEngine:
     # =====================================================
     # MEMORY
     # =====================================================
-
+    # This function assembles the full messages array for the LLM call, including the system prompt, a clean version of the chat history (without RAG blobs),
+    #  and the current user turn with RAG context and state context. This structure allows the model to have access to relevant past information while 
+    # avoiding confusion from irrelevant details in the history. The current user turn is built using the PromptEngine, which formats it with the necessary 
+    # context for the model to answer effectively.
     def _get_messages(self, user_turn_with_context: str) -> list[dict]:
         """[system] + [clean history] + [current turn with context + state]"""
         messages = [{"role": "system", "content": SYSTEM_PROMPT}]
@@ -307,7 +331,7 @@ class MathRAGEngine:
         response = ollama.chat(
             model=LLM_MODEL,
             messages=messages,
-            options={"temperature": 0.3, "num_predict": 256}
+            options={"temperature": 0.3, "num_predict": 256} # We want slightly creative answers but not too much, and we allow for longer responses to give the model room to explain its reasoning.
         )
         return response["message"]["content"].strip()
 
@@ -315,7 +339,10 @@ class MathRAGEngine:
     # =====================================================
     # RETRIEVAL
     # =====================================================
-
+    # This function performs a similarity search on the FAISS index to retrieve relevant knowledge chunks based on the user's query. It includes a filter to prioritize 
+    # concept chunks and exclude example scenarios, which helps reduce hallucination by ensuring the model focuses on core concepts rather than specific examples
+    #  that may not be relevant. If the filtering fails for any reason, it falls back to a standard similarity search without filters to ensure that some context 
+    # is returned.
     def _retrieve(self, query: str) -> list:
         """Concept chunks only — filters out example scenarios."""
         def concept_only(meta: dict) -> bool:

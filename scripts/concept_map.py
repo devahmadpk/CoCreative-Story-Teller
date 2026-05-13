@@ -8,7 +8,7 @@ CONCEPT_ALIASES = {
     "geometry": ["area", "perimeter", "angles"]
 }
 
-
+# Checks user query against known aliases to map to a canonical concept name. If no match, returns the original concept string. This helps standardize concepts for RAG retrieval and evaluation.
 def normalize_concept(concept: str):
     concept = concept.lower()
 

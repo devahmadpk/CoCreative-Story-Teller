@@ -9,7 +9,7 @@ from concept_map import normalize_concept
 # =========================================================
 
 EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
-INDEX_PATH = "../vector_db/math_index"
+INDEX_PATH = "./vector_db/math_index"
 
 
 # =========================================================
@@ -55,15 +55,19 @@ def test_retrieval(db):
     correct = 0
 
     for q, expected in TEST_QUERIES:
-
+        # Perform similarity search on the FAISS index for the query, retrieving the top 3 results. We will check if the top result's concept matches
+        #  the expected concept for the query.
         results = db.similarity_search(q, k=3)
 
+        # Get the concept from the metadata of the top retrieved document and normalize it using the same function we use for evaluation. 
+        # This ensures that we are comparing
         top = results[0]
         raw = top.metadata.get("concept", "")
 
         predicted = normalize_concept(raw)
         expected_norm = normalize_concept(expected)
 
+        # Check if the predicted concept matches the expected concept
         match = predicted == expected_norm
 
         print(f"Q: {q}")
@@ -80,7 +84,10 @@ def test_retrieval(db):
 # =========================================================
 # EMBEDDING CLUSTER QUALITY (FIXED SAMPLING)
 # =========================================================
-
+# This test checks the quality of the embedding clusters for each concept. It retrieves a sample of documents for each concept, computes their embeddings,
+#  and then calculates the average cosine similarity between the embeddings of different concepts.
+#  Ideally, we want to see higher similarity within the same concept and lower similarity across different concepts,
+#  which would indicate that the embedding model is effectively capturing the semantic differences between concepts.
 def test_embedding_similarity(db):
 
     print("\n📐 EMBEDDING CLUSTER TEST\n")
@@ -91,14 +98,20 @@ def test_embedding_similarity(db):
     ]
 
     all_docs = []
-
+    # For each seed query (which corresponds to a concept), we perform a similarity search to retrieve a sample of documents related to that concept.
+    #  We then compute the embeddings for the content of those documents and group them by their normalized concept.
+    #  Finally, we calculate the average cosine similarity between the embedding clusters of different concepts to assess how well the embedding model is
+    #  distinguishing between them.
     for q in seed_queries:
-        all_docs.extend(db.similarity_search(q, k=10))
+        all_docs.extend(db.similarity_search(q, k=10)) # Higher k for a more robust sample of the embedding space for each concept
 
     embeddings = db.embedding_function
 
     concept_vectors = {}
 
+    # For each retrieved document, we get its content and metadata, normalize the concept, compute the embedding vector for the content, and group the vectors
+    #  by their normalized concept name. This allows us to analyze the embedding clusters for each concept and compare them to see if they are well-separated
+    #  in the embedding space.
     for doc in all_docs:
 
         concept = normalize_concept(doc.metadata.get("concept", "unknown"))
@@ -107,7 +120,8 @@ def test_embedding_similarity(db):
 
         concept_vectors.setdefault(concept, []).append(vec)
 
-    # average vectors
+    # average vectors because we want to see the overall cluster similarity, not just individual points. This gives us a better sense of how well the embedding model
+    #  is grouping similar concepts together and separating different concepts in the vector space.
     def avg(vecs):
         return np.mean(vecs, axis=0)
 
@@ -115,6 +129,8 @@ def test_embedding_similarity(db):
 
     print("Cross Concept Similarity (lower is better)\n")
 
+    # We calculate the cosine similarity between the average embedding vectors of different concepts. Ideally, we want to see lower similarity scores
+    #  between different concepts,
     for i in range(len(keys)):
         for j in range(i + 1, len(keys)):
 
@@ -123,6 +139,9 @@ def test_embedding_similarity(db):
             v1 = avg(concept_vectors[c1])
             v2 = avg(concept_vectors[c2])
 
+            # Cosine similarity is calculated as the dot product of the two vectors divided by the product of their magnitudes. A lower cosine similarity score 
+            # indicates that the vectors are more orthogonal, which in this context would suggest that the embedding model is effectively distinguishing between
+            #  the two concepts.
             sim = np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
 
             print(f"{c1} vs {c2}: {sim:.4f}")
@@ -131,7 +150,9 @@ def test_embedding_similarity(db):
 # =========================================================
 # NOISE TEST (FIXED VISIBILITY)
 # =========================================================
-
+# This test checks how the FAISS index handles queries that are unrelated to the math concepts in the knowledge base. We want to see that such queries do not 
+# retrieve relevant concept chunks, which would indicate that the index is not producing false positives for irrelevant queries. This helps us understand the 
+# precision of the retrieval system and its ability to filter out noise.
 def test_noise(db):
 
     print("\n🧪 NOISE TEST\n")
